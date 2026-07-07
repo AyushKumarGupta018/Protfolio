@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantum Secure Sharing | Ayush Kumar Gupta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html#top"><span class="brand-mark">AKG</span><span>Ayush Kumar Gupta</span></a>
+      <nav class="nav-links"><a href="../index.html#work">Work</a><a href="../videos.html">Videos</a><a href="../certificates.html">Credentials</a><a href="../index.html#contact">Contact</a></nav>
+      <a class="nav-action" href="../assets/Ayush_Kumar_Gupta_Resume.pdf" download>Resume</a>
+    </header>
+    <main class="page-main">
+      <section class="section-shell">
+        <a class="back-link" href="../index.html#work">Back to selected work</a>
+        <div class="page-hero">
+          <div>
+            <p class="section-kicker">Research Internship - NIT Agartala</p>
+            <h1>Quantum-Safe Self-Destructing File Sharing</h1>
+            <p class="page-summary">
+              I built this as a secure file-sharing system where a document can be accessed once,
+              verified through blockchain state, and protected with post-quantum cryptography.
+            </p>
+          </div>
+          <aside class="detail-panel">
+            <dl>
+              <div><dt>Role</dt><dd>Flutter app, secure workflow, backend integration</dd></div>
+              <div><dt>Stack</dt><dd>Flutter, Flask, OQS, Kyber-512, AES-256-GCM, IPFS, Ethereum</dd></div>
+              <div><dt>Focus</dt><dd>Privacy-preserving access, self-destructing file flow, key handling</dd></div>
+            </dl>
+          </aside>
+        </div>
+        <div class="detail-layout">
+          <div class="detail-stack">
+            <section class="detail-section">
+              <h2>What I built</h2>
+              <p>
+                The system combines a mobile interface, a post-quantum backend, decentralized
+                storage, and smart-contract verification. The main idea is simple: a sender shares a
+                file securely, the receiver gets controlled one-time access, and the platform avoids
+                keeping exposed files around after use.
+              </p>
+            </section>
+            <section class="detail-section">
+              <h2>Important parts</h2>
+              <ul>
+                <li>Used CRYSTALS-Kyber-512 for post-quantum key encapsulation.</li>
+                <li>Used AES-256-GCM for encrypted file handling.</li>
+                <li>Connected IPFS storage with Ethereum verification for access state.</li>
+                <li>Built Flutter flows for private-key handling and blockchain state checks.</li>
+                <li>Built Flask/OQS backend services for encapsulation and decapsulation.</li>
+              </ul>
+            </section>
+          </div>
+          <aside class="detail-stack">
+            <article class="media-panel">
+              <iframe src="https://www.youtube-nocookie.com/embed/n0aQh44Bcn0" title="Quantum secure sharing demo" loading="lazy" allowfullscreen></iframe>
+              <div><h3>Demo video</h3><p>Short walkthrough of the NIT Agartala quantum secure sharing project.</p></div>
+            </article>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

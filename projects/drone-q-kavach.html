@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drone Q-Kavach | Ayush Kumar Gupta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html#top"><span class="brand-mark">AKG</span><span>Ayush Kumar Gupta</span></a>
+      <nav class="nav-links"><a href="../index.html#work">Work</a><a href="../videos.html">Videos</a><a href="../certificates.html">Credentials</a><a href="../index.html#contact">Contact</a></nav>
+      <a class="nav-action" href="../assets/Ayush_Kumar_Gupta_Resume.pdf" download>Resume</a>
+    </header>
+    <main class="page-main">
+      <section class="section-shell">
+        <a class="back-link" href="../index.html#work">Back to selected work</a>
+        <div class="page-hero">
+          <div>
+            <p class="section-kicker">Cybersecurity Project</p>
+            <h1>Drone Q-Kavach</h1>
+            <p class="page-summary">
+              Drone Q-Kavach is my quantum-resistant drone communication project, designed around
+              secure telemetry, authenticated commands, encrypted video, and replay protection.
+            </p>
+          </div>
+          <aside class="detail-panel">
+            <dl>
+              <div><dt>Role</dt><dd>Security architecture and prototype planning</dd></div>
+              <div><dt>Stack</dt><dd>Kyber, Dilithium, AES-256-GCM, secure communication design</dd></div>
+              <div><dt>Focus</dt><dd>Drone communication, telemetry protection, secure live video</dd></div>
+            </dl>
+          </aside>
+        </div>
+        <div class="detail-layout">
+          <div class="detail-stack">
+            <section class="detail-section">
+              <h2>What I tried to solve</h2>
+              <p>
+                Drones can depend on wireless links for commands, telemetry, and video. If that
+                link is weak, an attacker can try replay attacks, command tampering, or traffic
+                interception. I designed this project around stronger identity, encrypted telemetry,
+                and post-quantum-ready key exchange.
+              </p>
+            </section>
+            <section class="detail-section">
+              <h2>System ideas</h2>
+              <ul>
+                <li>Kyber-based session key exchange for quantum-resistant communication.</li>
+                <li>Dilithium signatures for authenticating commands and messages.</li>
+                <li>AES-256-GCM for encrypted telemetry and secure payload handling.</li>
+                <li>Replay protection and mutual authentication between drone and controller.</li>
+                <li>Secure live video streaming as a future-ready extension.</li>
+              </ul>
+            </section>
+          </div>
+          <aside class="detail-stack">
+            <article class="media-panel">
+              <iframe src="https://www.youtube-nocookie.com/embed/MWegcW-esg4" title="Drone Q-Kavach demo" loading="lazy" allowfullscreen></iframe>
+              <div><h3>Demo video</h3><p>A focused demo of the Drone Q-Kavach concept and security flow.</p></div>
+            </article>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
